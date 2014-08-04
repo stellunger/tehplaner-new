@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|b901a9a7a2bc\.html|yandex_58cf49a61f3cca40\.html|assets|favicon\.ico)
+RewriteRule ^(.*)$ /index.php [L]
+
